@@ -1,0 +1,344 @@
+#MBanner{
+    background-image: url(../images/BannerPic.jpeg);
+    width: 1024px;
+    height: 396px;
+}
+h1{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;   
+}
+.transbtn{
+    background-color: transparent;
+    border-color: #000000;
+    border-radius: 7px;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 17px;
+    
+    
+}
+#h4Mbanner{
+    font-family: sans-serif;
+}
+#Dicon{
+    height: 15px;
+    float: left;
+    margin: 10px;
+    padding-left: 20px;
+}
+#panelLogo{
+    height: 10px;
+    width: auto;
+    float:left;
+    margin: 10px;
+}
+#panel{
+    width: 1024px;
+}
+#part2{
+    width: 1024px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+}
+#P2center{
+    width: 700px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+
+}
+.simpelCercil{
+    width: 100px;
+    height: 100px;
+    border-color: #FFD200;
+    border-radius: 50%;
+    border-style: solid;
+    margin: 20px;
+    padding: 3px;
+    text-align: center;
+}
+.p2txt{
+     width: 100px;
+    align-content: center;
+    margin: 20px;
+}
+.chartdivs{
+    float:left;
+    width: 100px;
+    margin: 30px;
+    align-content: center;
+}
+#part3{
+    width: 1024px;
+    height: 600px;
+    background-color: #F3F0E7;
+}
+
+#P3center{
+    width: 750px;
+    height: 470px;
+    background-color: #F3F0E7;
+
+}
+.P3divs{
+    width: 250px;
+    height: 350px;
+    float: left;
+    
+}
+
+
+
+#circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/SM.jpeg);
+}
+
+#circle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/PE.jpeg);
+}
+
+#circle3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../images/Template.jpeg);
+}
+
+
+.P3txt{
+    width: 200px;
+}
+.P3H{
+
+    font-size: 16px;
+    padding: 20px;
+}
+.P3P{
+    font-size: 12px;
+}
+
+.redbtn{
+    background-color: #E11A27;
+    border-color: #E11A27;
+    border-radius: 7px;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 17px;
+    color: white;
+    
+}
+
+#footerDiv{
+    width: 100%;
+    height: 350px;
+    background-color: #FFD200;
+    align-self: center;
+}
+.FD{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 50px;
+}
+
+.FDLine{
+    color: black;
+     
+}
+
+.footerul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.footerli{
+  text-decoration: none;  
+  margin: 0;
+ padding: 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+.titles{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+}
+.titles:first-letter{
+    font-size: larger;
+}
+#part4{
+    width: 828px;
+    height: 470px;
+    margin: 90px;
+   }
+
+.P4Pdivs{
+    width: 240px;
+    height: 400px;
+    background-color: #ffd200;
+    align-content: center;
+    margin: 18px;
+    border-radius: 5px;
+    float: left;
+}
+
+h3{
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Abel';
+    font-size: 22px;
+}
+
+.P4Cdivs{
+    width: 230px;
+    height: 280px;
+    margin: 3px;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    
+}
+
+.P4ul{
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    list-style-type:circle;
+    list-style-position: inside;
+    line-height: 30px;
+/*    font-weight: 600;*/
+    
+}
+
+.P4price{
+    
+    font-size: 40px;
+    font-weight: 800px;
+    padding: 20px 10px 20px 10px;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+}
+
+#part5{
+    background-image: url(../images/Testimonials.jpeg);
+    width: 1024px;
+    height: 596px;
+    
+}
+
+.P5content{
+    text-align: left;
+    width: 450px;
+    margin: 20px 0px 0px 50px;
+    float: left;
+}
+.TPP{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../images/TPP.jpg);
+    float: left;
+    margin-right: 10px;
+}
+.Tname{
+    font-size: 16px;
+/*    font-weight: 600;*/
+/*    padding: 8px;*/
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.P5txt{
+    font-size: 12px;
+    font-weight: 700;
+}
+#NT{
+    float: right;
+    
+}
+#nextbtn{
+    border: none;
+    background-color: transparent;
+}
+#part6{
+    width: 690px;
+    height: 315px;
+    margin: 70px auto;
+    align-content: center;
+    text-align: center;
+}
+
+.P6Pdivs{
+    width: 200px;
+    height: 215px;
+    float: left;
+    margin: 15px;
+}
+.P6Hdivs{
+    width: 200px;
+    height: 40px;
+    background-color: #ffd200;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+.P6Bdivs{
+    width: 200px;
+    height: 170px;
+    background-color: #f7f0e6;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: left;
+    padding: 14px;
+    margin: 4px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.P6Htxt:first-letter{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

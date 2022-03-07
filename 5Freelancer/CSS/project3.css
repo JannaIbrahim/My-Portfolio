@@ -1,0 +1,371 @@
+/*start Main Ruls*/
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #edeef2;
+}
+.container{
+    width: 87%;
+    margin: auto;
+    overflow: hidden;
+}
+hr{
+    width: 87%;
+    color:#bdbdbd; 
+    margin-top: -10px;
+}
+
+.clearfix{
+    clear: both;
+}
+p{
+    color: #a5a5a5;
+    font-size: 14px;
+    line-height: 20px;
+    font-family:  Alegreya Sans;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-family:Alegreya Sans;
+}
+/*end Main Ruls*/
+/*start Navbar*/
+.navbar{
+    height: 50px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.navbar .logo{
+    float: left;
+}
+.navbar .logo .logotxt{
+    color: #33ad86;
+    float: left;
+    font-style:normal;
+    font-size: 25px;
+    font-weight:700;
+    margin: 10px 5px 5px 5px;
+    text-transform: uppercase;
+}
+.navbar p{
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: Alegreya Sans;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar ul li{
+    float: left;
+    padding: 15px;
+    text-transform: capitalize;
+    margin: 0px 20px;
+    font-family: Alegreya Sans;
+    
+}
+.navbar a:hover{
+    color:#33ad86;
+}
+.navbar a{
+    text-decoration: none;
+    color:#4c4e4d;
+}
+.navbar button{
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+}
+/*end Navbar*/
+/*start header*/
+.header{
+    width: 100%;
+    height: 350px;
+    margin: 10px 0px;
+    padding: 0px;
+    font-family:Alegreya Sans;
+    overflow: hidden;
+}
+.header .Text{
+    width: 50%;
+    height: 350px;
+    margin: 0px;
+    float: left;
+    overflow: hidden;
+}
+.header h1{
+    margin-top:100px;
+    color: #4c4e4d;
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-family:Alegreya Sans;
+}
+.header .pic{
+    width: 50%;
+    height: 350px;
+    margin: 0px;
+    padding: 0p;
+    float: left;
+    background-image: url(../Images/header.jpeg);
+}
+/*end header*/
+
+/*start latest works*/
+.latestWorks{
+    width: 100%;
+    height: 596.97px;
+    margin: 10px 0px;
+}
+
+.latestWorks h1{
+    color:#a5a5a5;
+    float: left;
+}
+.latestWorks ul {
+    float: right;
+}
+.latestWorks ul li{
+    list-style: none;
+    padding: 15px;
+    float: left;
+    text-transform: capitalize;
+    margin: 0px 20px;
+    font-family: Alegreya Sans;
+    padding-top: 26px;
+
+}
+.latestWorks a{
+    text-decoration: none;
+    color: #33ad86;
+    display: inline-block;
+    
+}
+.latestWorks a:hover{
+    height: 21px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #33ad86;
+    color: #edeef2;
+}
+.latestWorks .sample{
+    width: 30.33%;
+    margin: 1.5%;;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+/*end latest works*/
+/*start our services*/
+.ourServices{
+    width: 100%;
+    height: 500px;
+    margin: 10px 0px;
+}
+.ourServices h1{
+    color:#a5a5a5;
+    float: left;
+}
+.ourServices p:first-of-type{
+    float: right;
+    margin-top: 26px;
+}
+.ourServices .service{
+    width: 31.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 1%;
+    text-align: center;
+    align-content: center;
+    
+}
+.ourServices .service .image{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.ourServices .service h3{
+    color: #4c4e4d;
+    text-transform: capitalize;
+    font-family:Alegreya Sans;
+    
+}
+.ourServices .service p{
+        width:85%;
+        margin: auto;
+}
+/*end our services*/
+/*start our services*/
+.meetTheTeam{
+    width: 100%;
+    height: 550px;
+    margin: 10px 0px;
+}
+.meetTheTeam h1{
+    color:#a5a5a5;
+    float: left;
+}
+.meetTheTeam p:first-of-type{
+    float: right;
+    margin-top: 26px;
+}
+.meetTheTeam .members{
+    width: 31.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 1%;
+    text-align: center;
+    align-content: center;
+    
+}
+.meetTheTeam .members .image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+.meetTheTeam .members h2{
+    color: #4c4e4d;
+    text-transform: uppercase;
+    font-family:Alegreya Sans;
+    font-weight: normal;
+    
+}
+.meetTheTeam .members h3{
+    color: #4c4e4d;
+    text-transform: capitalize;
+    font-family:Alegreya Sans;
+    
+}
+.meetTheTeam .members p{
+        width:85%;
+        margin: auto;
+}
+.meetTheTeam .members i{
+    margin: 15px;
+    
+}
+/*end meet yhe team*/
+/*start footer*/
+.footer{
+    background-color: #33ad86;
+}
+.footer .fPart{
+    width: 30.33%;
+    margin: 1.5%;
+    float: left;
+        
+}
+.footer h2{
+    color: #edeef2;
+    text-transform: capitalize;
+    font-family:Alegreya Sans;
+    font-weight: normal;
+}
+.footer .latestTweets p{
+    color: #edeef2;
+    margin:10px;
+}
+.footer .latestTweets .tweet{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.footer .latestTweets a{
+    text-decoration: none;
+    color:#edeef2;
+    font-size: 14px;
+    margin-left: 10px;
+    
+}
+/*start instagram*/
+.footer .instagram{
+    align-content: center;    
+}
+.footer .instagram .pic{
+    width:75px;;
+    height: 75px;
+    float: left;
+    margin: 1.5%;
+    background-color: #8be3cb;
+    border-radius: 4px;
+    align-content: center;
+    
+    
+}
+/*end instagram*/
+/*start contact us*/
+.footer .contactUs input[type="text"],
+.footer .contactUs input[type="email"]{
+    width:350px;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 5px;
+     border: none;
+    border-radius: 2px;
+}
+.footer .contactUs textarea{
+    width: 350px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+.footer .contactUs input[type="submit"]{
+    width: 60px;
+    height: 30px;
+    padding:5px;
+    margin: 10px;
+    font-weight: bold;
+    float: right;
+    background-color: #296154;
+    border: none;
+    border-radius: 2px;
+    color: #edeef2;
+    
+}
+.footer hr{
+    color: #edeef2;
+    width: 100%;
+}
+.footer .bottomFooter i{
+    float: left;
+    margin: 7px;
+}
+.footer .bottomFooter p{
+    color: #edeef2;
+    float: right;
+    text-transform: capitalize;
+}
+.footer .bottomFooter span{
+    display: inline-block;
+    border-left: 1px solid #edeef2;
+    margin: 3px;
+    text-transform: capitalize;
+    padding: 3px;
+}
+/*end contact us*/
+/*end footer*/
+
+
+
+
+
+
+
+
+
+

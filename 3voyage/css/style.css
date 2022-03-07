@@ -1,0 +1,283 @@
+/*-----Start main -----*/
+body{ 
+    margin: 0;
+    color: #2d3e52;
+}
+.container-fluid{
+    width: 86%;
+    margin: auto;
+}
+p{
+    display: block;
+}
+
+.nom{
+    margin: 0px;
+    padding: 0px;
+}
+.greenbgbtn{
+    background-color: #31d1b7;
+    color: #ffffff;
+    padding: 0.7rem;
+    border: none;
+    font-size: 0.7rem;
+}
+
+.transbtn{
+    background-color: transparent;
+    color: #ffffff;
+    padding: 0.7rem;
+    border: 1px solid #ffffff;
+    font-size: 0.7rem;
+    
+}
+.overlay{
+    background-color:black;
+/*    opacity: 0.4;*/
+    z-index: 3;
+}
+h2 ,h3{
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.6rem;
+}
+.green{
+    color:  #31d1b7;
+}
+.white{
+    color: #ffffff;
+}
+.blue{
+    color: #2d3e52;
+}
+/*-----Start main -----*/
+
+/*-----Start Preloader-----*/
+.preloader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    align-content: center;
+    background-color: #2d3e52;
+    z-index: 999999999;
+}
+
+
+.loader{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top:-45px;
+    margin-left:-45px;
+    border: 5px solid transparent ;
+    border-radius: 50%;
+    border-top-color: #31d1b7;
+    border-bottom-color: #31d1b7;
+     -webkit-animation:spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    
+    
+    
+}
+.loader2{
+    width: 65px;
+    height: 65px;
+    margin: 7.5px;
+    border: 5px solid transparent ;
+    border-radius: 50%;
+    border-right-color:#ffffff;
+    border-left-color: #ffffff;
+    -webkit-animation: spin 2s linear infinite;
+            animation:  spin 2s linear infinite;
+    
+    
+}
+
+@keyframes spin{
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes anticlockwisespin{
+    from{transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
+}
+
+
+/*-----End Preloader-----*/
+
+/*-----Start navbar -----*/
+nav{
+    width: 100%;
+    background-color: #ffffff;
+    color: #2d3e52;
+    position: fixed;
+}
+
+nav li .active{
+    color: #31d1b7;
+}
+
+nav .navbar-brand{
+    text-transform: uppercase;
+    color: #2d3e52;
+}
+
+nav .navbar-brand span{
+    color: #31d1b7;
+    font-weight: bold;
+}
+
+
+nav #navbarText{
+    margin: auto;
+}
+
+
+nav ul li{
+    margin-left: 2rem;
+    
+}
+/*-----Start navbar -----*/
+
+/*-----Start header -----*/
+#mainheader{
+    width: 100%;
+    
+}
+#mainheader img {
+    width: 100%;
+    height: 100%;
+    max-width: inherit;
+    max-height: 30rem;
+    
+}
+
+
+/*-----End header -----*/
+
+/*-----Start search  bar -----*/
+.searchbar{
+    background-color: #2d3e52;
+    width: 100%;
+    color: #ffffff;
+}
+.searchbar button{
+    margin: 1rem;
+    
+}
+/*-----Start search  bar -----*/
+
+/*-----Start holyday type ------*/
+#holydaytype{
+    background-image: url(../img/type%20d.jpg);
+    width: 100%;
+    height:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem;
+}
+#holydaytype header{
+    color: #ffffff;
+    flex-wrap: wrap;
+    width: inherit;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+}
+#holydaytype .htype{
+    width: 6rem;
+    height: 6rem;
+    border: 5px solid #ffffff ;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10%;
+}
+#holydaytype .htype:hover ,
+typen:hover{
+    color: #31d1b7;
+    border-color: #31d1b7;
+    
+}
+#holydaytype .typen{
+    color: #ffffff;
+    margin:2rem auto;
+    padding-left: 30%
+}
+
+/*-----end holtdat type ------*/
+
+/*-----Start Happy clients -----*/
+#happyclient{
+    padding: 2rem;
+}
+
+#happyclientslider{
+    width: 40rem;
+    margin: 2rem  auto;
+    padding: 2rem;
+   border-top-color:#31d1b7; 
+}
+/*-----Start Happy clients -----*/
+
+/*-----Steat footer -----*/
+#mainfooter{
+    background-color:#2d3e52;
+    padding: 2rem;
+
+}
+#mainfooter .fpart1 input{
+    border: none;
+    padding: 0.5rem;
+}
+#mainfooter .fpart1 button{
+    padding: 0.5rem;
+}
+
+#mainfooter .fpart2 .news img{
+    width: 100%;
+    height: 100%;
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+#mainfooter .fpart3 button{
+    padding: 0.5rem;
+    border-radius: 2px;
+    margin: 0.3rem;
+}
+
+#mainfooter .fpart4 i{
+    margin-left: 1rem;
+}
+#mainfooter ul{
+    margin: auto;
+}
+
+#mainfooter ul li{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+#mainfooter ul li a{
+    color: #ffffff;
+}
+#mainfooter ul li:hover{
+    color: #31d1b7;
+}
+/*-----end footer -----*/
+
+/*-----Start Side Pages -----*/
+.spmainimg{
+    width: 100%;
+    height: 100%
+}
+
+/*-----end Side Pages -----*/

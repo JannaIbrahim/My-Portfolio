@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+    </head>
+    <body>
+<!--start header-->
+    <div class="slider" style="background-image: url(Images/slide%20darken.jpg);width: 100%;height: 500px;"></div>
+<!--end header-->
+<!-- start Navbar   -->
+    <div class="navTop"></div>
+    <div class="navbar">
+        <div class="container">
+            <div class="logo">
+            </div>
+            <ul>
+            <li><a href="#" data-scroll="">Home</a></li>
+            <li><a href="#" data-scroll="aboutUs">About us</a></li>
+            <li><a href="#" data-scroll="menu">Menu</a></li>
+            <li><a href="#" data-scroll="location">location &amp; branches</a></li>
+            <li><a href="#" data-scroll="book">Book now</a></li>
+            <button>
+               <i class='fas fa-search' style="color: #f9f9f9"></i> 
+            </button>
+            
+            </ul>
+        </div>
+    </div>
+<!-- end Navbar   -->
+<!-- start Menu -->
+        <div class="menu" id="menu">
+            <div class="container">
+                <h2>our menu</h2>
+                <div class="menuItems">
+                    <div class="item" style="background-image: url(Images/menu-1sm.jpg)">
+                        
+                        <h3 class="dishName">Lobster Roll</h3>
+                        <div class="price">
+                                <p>
+                                    <del>100&#36;</del>
+                                    <br>
+                                    60&#36;
+                                </p>
+                            </div>
+                        <div class="itemInfo">
+                            <p>California style, mayo, celery, green onions, on a French roll</p>
+                        </div>
+                        
+                    </div>                
+                    <div class="item" style="background-image: url(Images/menu-2sm.jpg)">
+                        
+                        <h3 class="dishName">Grilled Salmon</h3>
+                            <div class="price">
+                                <p>
+                                    <del>300&#36;</del>
+                                    <br>
+                                    230&#36;
+                                </p>
+                            </div>
+
+                        <div class="itemInfo">
+                            <p>A simple soy sauce and brown sugar marinade, with hints of lemon and garlic, are the perfect salty-sweet complement to rich salmon fillets.</p>
+                        </div>
+                    </div>                
+                    <div class="item" style="background-image: url(Images/menu-3sm.jpg)">
+                        
+                        <h3 class="dishName"> Tilapia with Dill Sauce</h3>
+                         <div class="price">
+                                <p>
+                                    <del>90&#36;</del>
+                                    <br>
+                                    70&#36;
+                                </p>
+                            </div>
+                        <div class="itemInfo">
+                            <p>Baked tilapia seasoned with Cajun and citrus served with a creamy sauce of fresh dill and lemon.</p>
+                        </div>
+                    </div>                
+                    <div class="item hidden" style="background-image: url(Images/menu-4sm.jpg)">
+                        
+                        <h3 class="dishName">Ginger Glazed Mahi Mahi</h3>
+                        <div class="price">
+                                <p>
+                                    <del>150&#36;</del>
+                                    <br>
+                                    100&#36;
+                                </p>
+                            </div>
+                        <div class="itemInfo">
+                            <p>This Ginger Glazed Mahi Mahi is bursting with flavor and combines both sweet and sour taste sensations. </p>
+                            
+                        </div>
+                    </div>                
+                    <div class="item hidden" style="background-image: url(Images/menu-5.jpg)">
+                        
+                        <h3 class="dishName">Lemon Garlic Tilapia</h3>
+                        <div class="price">
+                                <p>
+                                    <del>100&#36;</del>
+                                    <br>
+                                    70&#36;
+                                </p>
+                            </div>
+                        <div class="itemInfo">
+                            <p> A delicious and healthy baked Tilapia with the classic sauce of sauteed butter, parsley and lemon juice.</p>
+                            
+                        </div>
+                    </div>                
+                    <div class="item hidden" style="background-image: url(Images/menu-6sm.jpg)">
+                        
+                        <h3 class="dishName">Barbecued Shrimp</h3>
+                        <div class="price">
+                                <p>
+                                    <del>200&#36;</del>
+                                    <br>
+                                    150&#36;
+                                </p>
+                            </div>
+                        <div class="itemInfo">
+                            <p>Shrimp grilled with peaches and green onions</p>
+                            
+                        </div>
+                    </div>                
+                      
+                </div>
+                <center>
+                    <button class="showMoreBtn" >Show More</button>
+                </center>
+            </div>
+        </div>
+        
+<!-- end Menu -->
+        
+<script src="Js/jquery-3.3.1.min.js"></script>  
+
+    <script> 
+    $(document).ready( function(){
+    $('.navbar li a').click(function(e) {
+    
+        e.preventDefault();
+        $('html , body').animate({
+            scrollTop: $('#' + $(this).data('scroll')).offset().top -51
+        },1000);
+  
+    });
+        
+    $(window).scroll(function(){
+        if($(window).scrollTop()>=$('.navTop').offset().top){
+            $('.navbar').addClass('fixed');
+        }else{
+             $('.navbar').removeClass('fixed'); 
+             }
+    });
+
+  $('.showMoreBtn').click(function(){
+     $('.hidden').toggle(1000);
+     if ($(this).text()=="Show More"){
+         $(this).text("Show less");
+     }else{
+       $(this).text("Show More") ; 
+     }
+  });
+});
+</script>        
+        
+        
+    </body>
+    
+</html>

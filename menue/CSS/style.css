@@ -1,0 +1,182 @@
+/*start main ruls*/
+.container{
+    width: 87%;
+    margin: auto;
+    overflow: hidden;
+}
+button:hover{
+    cursor: pointer;
+}
+body{
+    height: 10000px;
+}
+/* end main ruls*/
+
+/*start Navbar*/
+.navbar{
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    background-color: rgba(34,34,34,0.8);
+    background-blend-mode: difference;
+    align-content: center;
+}
+.navbar .logo{
+    float: left;
+}
+
+.navbar ul{
+    list-style: none;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+   
+}
+.navbar ul li{
+    float: left;
+    display: inline-block;
+    padding: 15px 20px;
+           
+}
+.navbar a{
+    text-decoration: none;
+    color:#f9f9f9;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color:#d00808;
+    font-weight: lighter;
+}
+
+.navbar button{
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+}
+/*end Navbar*/
+/*start menu*/
+.menu{
+    width: 100%;
+}
+.menu h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 20px;
+    text-align: center;
+}
+.menu .menuItems{
+    align-self: center;
+    
+}
+.menu .item{
+    width: 30.333%;
+    height: 300px;
+    float: left;
+    margin: 1.5%;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.menu .item:hover{
+    cursor: pointer;
+}
+.menu .hidden{
+    display: none;
+}
+.menu .item h3{
+    display: block;
+    padding: 10px;
+    background-color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.menu .item .itemInfo{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(34,34,34,0.8);
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    display: none;
+    z-index: 50;
+}
+.menu .item:hover .itemInfo{
+    display: block;
+}
+
+.menu .item .itemInfo p{
+    font-size: 14px;
+    padding: 30px 10px 20px 10px;
+}
+.menu .item  .price{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 5% 0% 0% 5%;
+    
+}
+.menu .item .price p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0px;
+}
+.menu .item .price del{
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: normal;
+}
+.menu .showMoreBtn{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu .showMoreBtn:hover{
+    background-color: #ff0000;
+    color: #f9f9f9;
+    border-color:#ff0000; 
+}
+
+/*end menu*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

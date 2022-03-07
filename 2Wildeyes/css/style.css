@@ -1,0 +1,225 @@
+/*main style*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 86%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.clr2{
+    color:#ec7a5c;
+}
+
+.transbtn{
+    padding: 10px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+
+}
+/*main slider*/
+
+.mainSlider{
+    padding: 2rem;
+    background-image: url(../images/Top_banner21.jpg);
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    height: 700px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainSlider img{
+    display: block;
+    max-width: 250px;
+    margin: 2rem auto;
+    
+    
+}
+.mainSlider h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.mainSlider button{
+    margin-top: 22%;
+}
+
+/*how*/
+.how h2,
+.how p{
+    text-transform:uppercase;
+}
+.how {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0px;
+}
+.how h1{
+    font-size: 35px;
+    color:#000000;
+    font-weight: bold;
+}
+.how p{
+    color:#999999;
+    padding-bottom: 2rem;
+}
+/*steps*/
+.steps{
+    width: 100%;
+    
+}
+.steps img{
+    padding: 2rem;
+    max-width: 100%;
+}
+.steps .text{
+    padding: 2rem;
+}
+.steps .num,
+.explore .num{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ec7a5c;
+    font-family: serif;
+    text-transform: uppercase;
+}
+.steps .key,
+.explore .key{
+    color:#999999;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.steps h3,
+.explore h3{
+    color:#000000;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1.3rem;
+    
+}
+.steps .desc,
+.explore .desc{
+    color:#999999;
+    
+} 
+.steps .subscribe{
+    color: #ffffff;
+    background-color: #ec7a5c;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    margin: 2rem 0;
+}
+.steps hr{
+    padding: 1.5rem 0rem;
+}
+
+/*explore*/
+.explore{
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.explore .num{
+    margin: 2rem 0;
+
+} 
+.explore .desc {
+    max-width: 600px;
+    margin: auto;
+}
+
+/*cards*/
+.cards{
+    width: 100%;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+.cards h4{
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+.cards p{
+     color:#999999;   
+}
+/*tablet*/
+
+.tablet img{
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+}
+/*try*/
+.try{
+    width: 100%;
+    background-color: #ec7a5c;
+    color: #ffffff;
+    text-align: center;
+    padding: 4rem 0rem;
+    text-transform: uppercase;
+}
+
+.try .key{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+.try h1{
+    margin: 1rem;
+}
+.try button{
+    margin: 1rem;
+}
+/*supporters*/
+.supporters{
+    padding: 2rem 0rem;
+}
+.supporters h2{
+    color:#999999;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+.supporters img{
+    max-width: 100%;
+    
+}
+.supporters hr{
+    margin: 2rem 0rem;
+}
+/*footer*/
+footer{
+    background-color: #f4f4f4;
+    padding: 4rem 0rem;
+    text-align: center;
+}
+footer ul{
+    color: #333333;
+}
+footer ul li{
+    display: inline;
+    font-size: 25px;
+    margin: 5px;
+}
+footer p{
+    color: #999999;
+    font-size: 16px;
+}
+footer p span{
+    text-decoration: underline;
+}
